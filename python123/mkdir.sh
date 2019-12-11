@@ -1,0 +1,13 @@
+mkdir E01
+mkdir E02
+mkdir E03
+mkdir E04
+mkdir E05
+mkdir E06
+mkdir E07
+mkdir E08
+mkdir E09
+mkdir E10
+mkdir E11
+mkdir E12
+mkdir E13
