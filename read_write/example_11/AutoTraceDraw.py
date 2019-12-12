@@ -27,7 +27,9 @@ def read_data(file_name):
 
 def draw_line(datals):
     for i in range(len(datals)):
-        if datals[i][7] == 1:
+        # 当为1时候画图，否则pass，相当于注释
+        if datals[i][7]:
+            # 绘直线
             if datals[i][6] == 0:
                 t.pencolor(datals[i][3], datals[i][4], datals[i][5])
                 t.fd(datals[i][0])
@@ -36,6 +38,7 @@ def draw_line(datals):
                 else:
                     t.left(datals[i][2])
             # wait for
+            # 添加了绘曲线的部分
             elif datals[i][6] == 1:
                 t.pencolor(datals[i][3], datals[i][4], datals[i][5])
                 if datals[i][1]:
